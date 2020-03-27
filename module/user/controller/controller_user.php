@@ -1,8 +1,7 @@
 <?php
-   $path = $_SERVER['DOCUMENT_ROOT'] . '/Table v1.1/';
+   $path = $_SERVER['DOCUMENT_ROOT'] . '/Project/Project_PHP_MVC/';
     include($path . "module/user/model/DAOUser.php");
     session_start(); 
-
     switch($_GET['op']){
         case 'list';
             try{

@@ -1,5 +1,5 @@
 <?php
-	  $path = $_SERVER['DOCUMENT_ROOT'] . '/Table v1.1/';
+	  $path = $_SERVER['DOCUMENT_ROOT'] . '/Project/Project_PHP_MVC/';
 	  include($path . "model/connect.php");	
 	class DAOUser{
 		function insert_user($datos){
